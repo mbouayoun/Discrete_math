@@ -8,7 +8,7 @@ Une relation d'un ensemble à un autre peut être considérée comme un tableau 
 
 Bien entendu, le tableau 3.3.1 n'est en réalité qu'un ensemble de paires ordonnées. De manière abstraite, nous définissons une relation comme étant un ensemble de paires ordonnées. Dans ce cadre, nous considérons que le premier élément de la paire ordonnée est lié au second élément de la paire ordonnée.
 
-![img08](Z:\mbbooks\0Combinatorics\img08.png)
+![img08](img08.png)
 
 > **Définition.**
 >
@@ -40,7 +40,7 @@ nous obtenons
 $R = \{(2, 4), (2, 6), (3, 3), (3, 6), (4, 4)\}$.
 Si nous réécrivons $R$ sous forme de tableau, nous obtenons
 
-![img09](Z:\mbbooks\0Combinatorics\img09.png)
+![img09](img09.png)
 
 **Exemple 3.3.4**
 
@@ -48,7 +48,7 @@ Soit $R$ la relation sur $X = \{1, 2, 3, 4\}$ définie par $(x, y) ∈ R$ si $x 
 
 $R = \{(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4), (3, 3), (3, 4), (4, 4)\}$.
 
-![img10](Z:\mbbooks\0Combinatorics\img10.png)
+![img10](img10.png)
 
 ​										Figure 3.3.1 Le digraphe de la relation de l'exemple 3.3.4.
 
