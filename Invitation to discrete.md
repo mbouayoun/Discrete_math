@@ -59,7 +59,7 @@ Une façon instructive d'illustrer une relation sur un plateau est de dessiner s
 La relation $R$ sur $X = \{a, b, c, d\}$ donnée par le digraphe de la figure 3.3.2 est
 $R = \{(a, a), (b, c), (c, b), (d, d)\}$.
 
-![img11](Z:\mbbooks\0Combinatorics\img11.png)
+![img11](img11.png)
 
 ​										Figure 3.3.2 Le digraphe de la relation de l'exemple 3.3.5.
 
@@ -146,7 +146,7 @@ pour tous les $x, y ∈ X$, si $x \neq y$, alors $(x, y) \notin R$ ou $(y, x) \n
 
 Par exemple, $R = \{(a, a), (b, b), (c, c)\}$ sur $X = \{a, b, c\}$ est antisymétrique. Le digraphe de $R$ illustré à la figure 3.3.3 a au plus un bord dirigé entre chaque paire de sommets distincts. Notez que $R$ est également réflexive et symétrique. Cet exemple montre que "antisymétrique" n'est pas la même chose que "non symétrique" car cette relation est en fait à la fois symétrique et antisymétrique.
 
-![img12](Z:\mbbooks\0Combinatorics\img12.png)
+![img12](img12.png)
 
 ​									Figure 3.3.3 Le digraphe de la relation de l'exemple 3.3.15.
 
@@ -181,7 +181,7 @@ on $X = \{a, b, c, d\}$ n'est pas antisymétrique parce que $(b, c)$ et $(c, b)$
 
 La relation $R$ sur $X = \{1, 2, 3, 4\}$ définie par $(x, y) ∈ R$ si $x ≤ y, x, y ∈ X$, est transitive car pour tous les $x, y, z$, si $(x, y) et (y, z) ∈ R$, alors $(x, z) ∈ R$. Pour vérifier formellement que cette relation satisfait à la définition 3.3.17, nous pouvons énumérer toutes les paires de la forme $(x, y)$ et $(y, z)$ dans $R$ et ensuite vérifier que dans chaque cas, $(x, z) ∈ R$ :
 
-![img13](Z:\mbbooks\0Combinatorics\img13.png)
+![img13](img13.png)
 
 
 En fait, certaines des entrées du tableau précédent étaient inutiles. Si $x = y$ ou $y = z$, il n'est pas nécessaire de vérifier explicitement que la condition
@@ -192,7 +192,7 @@ est satisfaite car elle sera automatiquement vraie. Supposons, par exemple, que 
 
 En éliminant les cas $x = y$ et $y = z$, il ne reste plus qu'à vérifier explicitement que la relation est transitive :
 
-![img14](Z:\mbbooks\0Combinatorics\img14.png)
+![img14](img14.png)
 
 Le digraphe d'une relation transitive a la propriété que chaque fois qu'il y a des bords dirigés de $x$ à $y$ et de $y$ à $z$, il y a aussi un bord dirigé de $x$ à $z$. Notez que le digraphe de cette relation (voir figure 3.3.1) a cette propriété.
 
@@ -601,7 +601,7 @@ Supposons que nous ayons un ensemble $X$ de $10$ boules, chacune étant soit rou
 
 Une partition peut être utilisée pour définir une relation. Si $\mathcal {S}$ est une partition de $X$, nous pouvons définir $x R y$ pour signifier que pour un certain ensemble $S ∈ \mathcal S$, $x$ et $y$ appartiennent tous deux à $S$. Pour l'exemple de la figure 3.4.1, la relation obtenue pourrait être décrite comme "est de la même couleur que". Le théorème suivant montre qu'une telle relation est toujours réflexive, symétrique et transitive.
 
-![img19](V:\mbbooks\0Combinatorics\img19.jpg)
+![img19](img19.jpg)
 
 ​												Figure 3.4.1 Un ensemble de boules colorées.
 
@@ -720,7 +720,7 @@ Comme $R$ n'est pas réflexive, il existe $b ∈ X$ tel que $(b, b) ∈ R$. Nous
 
 Nous concluons cette section en prouvant un résultat spécial dont nous aurons besoin plus tard (voir les sections 6.2 et 6.3). La preuve est illustrée dans la figure 3.4.3.
 
-![img21](V:\mbbooks\0Combinatorics\img21.jpg)
+![img21](img21.jpg)
 
 ​										Figure 3.4.3 La preuve du théorème 3.4.16.
 
@@ -1386,21 +1386,21 @@ répondrait également à la question de l'exemple 3.6.7.
 
 1. Exprimez la relation donnée par le tableau 3.6.4 sous la forme d'un ensemble de n-tuples.
 
-![img22](V:\mbbooks\0Combinatorics\img22.jpg)
+![img22](img22.jpg)
 
 2. Exprimez la relation donnée par le tableau 3.6.5 sous la forme d'un ensemble de n-tuples.
 
-![img23](V:\mbbooks\0Combinatorics\img23.jpg)
+![img23](img23.jpg)
 
 
 3. Exprimez la relation donnée par le tableau 3.6.6 sous la forme d'un ensemble de n-tuples.
 
-![img24](V:\mbbooks\0Combinatorics\img24.jpg)
+![img24](img24.jpg)
 
 
 4. Exprimez la relation donnée par le tableau 3.6.7 sous la forme d'un ensemble de n-tuples.
 
-![img25](V:\mbbooks\0Combinatorics\img25.jpg)
+![img25](img25.jpg)
 
 
 Dans les exercices 5 à 20, écrivez une séquence d'opérations pour répondre à la requête. Fournissez également une réponse à la requête. Utilisez les tableaux 3.6.4-3.6.7.
@@ -1496,20 +1496,20 @@ Laissons le lemme tenir pour tout $n$ jusqu'à un certain $n_0$, et ayons $x ≺
 
 Par la proposition ci-dessus, il suffit de dessiner la relation du prédécesseur immédiat par des flèches. Si nous acceptons la convention selon laquelle toutes les flèches du dessin seront dirigées vers le haut (cela signifie que si $x ≺ y$ alors $y$ est dessiné plus haut que $x$), nous n'avons même pas besoin de dessiner la direction des flèches - il suffit de dessiner des segments reliant les points. Une telle image d'un ensemble partiellement ordonné est appelée son diagramme de Hasse. La figure suivante montre un ensemble linéairement ordonné à $7$ éléments, comme ($\{1, 2, . . . , 7\},≤$) :
 
-![img01](Z:\mbbooks\0Combinatorics\img01.png)
+![img01](img01.png)
 
 Le dessin suivant représente l'ensemble $\{1, 2, . . . 10\}$ ordonné par la relation de divisibilité (voir exemple 2.1.2) :
 
-![img02](Z:\mbbooks\0Combinatorics\img02.png)
+![img02](img02.png)
 
 La figure suivante est un diagramme de Hasse de l'ensemble $\{1, 2, 3\}×\{1, 2, 3\}$ avec l'ordre $≼$ donné par la règle $(a_1, b_1) ≼ (a_2, b_2)$ si et seulement si $a_1 ≤ a_2$ et $b_1 ≤ b_2$ :
 
-![img03](Z:\mbbooks\0Combinatorics\img03.png)
+![img03](img03.png)
 
 
 Enfin, voici un diagramme de Hasse de l'ensemble des sous-ensembles de $\{1, 2, 3\}$ ordonnés par inclusion :
 
-![img04](Z:\mbbooks\0Combinatorics\img04.png)
+![img04](img04.png)
 
 Exercices
 
@@ -1627,7 +1627,7 @@ Ajoutons quelques remarques. Si $f$ est une incrustation qui est également surj
 
 Le dessin suivant illustre deux ensembles :
 
-![img05](Z:\mbbooks\0Combinatorics\img05.png)
+![img05](img05.png)
 
 Les correspondances $f : 1 \mapsto v, 2 \mapsto x, 3 \mapsto y$ et $f′$ sont des exemples d'intégration de $P_1$ dans $P_2 : 1 \mapsto t, 2 \mapsto x, 3 \mapsto w$, tandis que, par exemple, ni $g : 1 \mapsto t, 2 4→ v, 3 \mapsto y$ ni $g′ : 1 \mapsto x, 2 \mapsto w, 3 \mapsto u$ ne sont des encastrements.
 
@@ -1645,7 +1645,7 @@ En fait, nous avons déjà rencontré la définition de la cartographie $f$ dans
 
 Notez que le théorème ci-dessus s'applique également aux ensembles infinis. Les ensembles ordonnés $(2^X,⊆)$ sont donc universels dans le sens où ils contiennent une copie de chaque ensemble ordonné. Il n'est donc pas étonnant qu'ils aient été étudiés de manière très intensive et que des notions et des notations particulières aient été définies pour eux. En particulier, pour $X = \{1, 2, . . . n\}$, l'ensemble $(2^X,⊆)$ est souvent désigné par $B_n$. Les diagrammes de Hasse de $B_1, B_2$ et $B_3$ sont présentés ci-dessous :
 
-![img06](Z:\mbbooks\0Combinatorics\img06.png)
+![img06](img06.png)
 
 #### 2.4 Grand implique haut ou large
 
