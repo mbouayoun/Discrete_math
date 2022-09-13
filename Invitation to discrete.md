@@ -304,7 +304,7 @@ Si nous avons une relation $R_1$ de $X$ à $Y$ et une relation $R_2$ de $Y$ à $
 >
 > Soit $R_1$ une relation de $X$ à $Y$ et $R_2$ une relation de $Y$ à $Z$. La composition de $R_1$ et $R_2$, dénommée R2 ◦ R1, est la relation de X à Z définie par
 >
-> $R_2 \circ  R_1 = \{(x, z) \| (x, y) ∈ R_1$ et $(y, z) ∈ R_2$ pour certains $y ∈ Y \}$.
+> $R_2 \circ  R_1 = \{ (x, z) \| (x, y) ∈ R_1$ , (y, z) ∈ R_2 $ pour certains $y ∈ Y \} $.
 
 **Exemple 3.3.26**
 
